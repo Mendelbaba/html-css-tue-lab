@@ -1,0 +1,79 @@
+header{
+    height: 300px;
+    width:98vw;
+    border: 5px solid;
+    display: flex;
+    position: relative;
+}
+
+.div1 {
+    height: 200px;
+    width: 60px;
+    background: rgb(129, 34, 129);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 95px;
+    left: 5px;
+   
+}
+
+.div2 {
+    background: green;
+    height: 275px;
+    width: 500px;
+    position: relative;
+    left: 50px;
+    top: 12px;
+    display: flex;
+
+}
+
+.div3 {
+    background: lightblue;
+    height: 275px;
+    width: 275px;
+    border-radius: 50%;
+    position: relative;
+    left: 100px;
+    top: 12px;
+    display: flex;
+
+}
+
+container {
+    height: 300px;
+    width:98vw;
+    border: 5px dotted;
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+}
+
+.div-box {
+    position: relative;
+    display: flex;
+    background: lightgoldenrodyellow;
+    height: 250px;
+    width: 80vw;
+    margin: auto;
+    box-shadow: 10px 10px black;
+}
+
+.foot-div {
+    position: relative;
+    display: flex;
+    height: 350px;
+    width: 50vw;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 3px gray ;
+}
+
+.foot-div > h1 {
+    color: rgb(102, 102, 192);
+    margin: auto ;
+    
+}
